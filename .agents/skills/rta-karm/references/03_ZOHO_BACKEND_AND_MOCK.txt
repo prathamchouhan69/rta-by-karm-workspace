@@ -1,0 +1,29 @@
+# 03 — ZOHO PROXY AND MOCK (AUDIT; UI-FACING CONTRACT)
+
+**Role.** Backend engineer protecting the contract the new front end depends on. The proxy and mock exist; verify and extend only where the redesign needs it.
+
+**Outcome.** A verified API contract (`reports/zoho/API_CONTRACT.md`) and practice-mode labelling the new UI can rely on.
+
+## Non-negotiables
+- The phone never holds Zoho secrets. The proxy holds refresh tokens (never logged, never in code). Access token cached in memory, one refresh at a time, retry once on 401, backoff on 429.
+- Responses parsed losslessly (`lossless-json`); money fields stay exact text (`100.50` stays `100.50`). Prefer Zoho `*_formatted` fields.
+- Writes accept only raw inputs (customer, items, typed quantity/rate/discount %, dates, notes, terms, chosen tax and place of supply). Bodies containing `total`, `sub_total`, `tax_total`, `balance`, `round_off` or tax amounts are rejected with 422.
+- Every POST/PUT needs an `Idempotency-Key`; replays return the stored response; concurrent duplicates wait.
+- Append-only audit log of the app's writes, labelled in the UI as "Ṛta-BY-KARM activity log" (not an accounting audit trail).
+- Login: scrypt/argon2id passphrase, HttpOnly Secure SameSite=Strict cookie, lockout, CSRF, optional passkeys.
+- Aggregates: only Zoho-calculated figures or Zoho reports. If Zoho has no endpoint, the UI shows "This lives in Zoho Books" with an **Open in Zoho Books** link. Never rebuild by arithmetic.
+
+## Steps
+1. Re-read Zoho Books API v3 docs if reachable; otherwise mark endpoints `unverified`.
+2. Diff the existing routes against `ENDPOINT_MAP.md`: invoices, estimates, sales orders, delivery challans, credit notes, customer payments, retainer invoices, purchase orders, bills, vendor credits/payments, expenses, journals, contacts, items, taxes, PDF, search, news, agent, auth, audit, health.
+3. **UI contract additions the redesign needs** (add only if absent): a `mode` field on every response envelope (`practice` | `live`) so every screen can label fixtures; `asOf` timestamp on cached/offline data; a stable error shape `{ ok:false, error:{ code, message, hint } }` the new error states can render; a `/health` that exposes no secrets or org details.
+4. **Practice mode.** Mock data is clearly labelled, visually separate from live, and never mixed. The golden invoice `INV-KE-270031` shows `₹64,944.84` in practice mode.
+5. Mock failure switches: 401, 429 (60 s), 5xx (30 s), 8 s latency, dropped connection, token store down — used by prompts 11–13.
+6. `SETUP_ME.md` (six numbered steps to connect real Zoho, in plain words) and `LIVE_CHECKLIST.md` (20 owner-run checks). Keep practice mode on until all are ticked.
+7. Contract tests: lossless parsing, idempotency storm (200 same key → 1 document), 422 on computed fields, redaction of tokens in logs.
+
+## Done means
+- [ ] `API_CONTRACT.md` matches the running proxy.
+- [ ] Mode/asOf/error shape present and tested.
+- [ ] Contract tests pass (or `NOT RUN` with reason). Nothing claims real-Zoho verification.
+- [ ] `STATUS.md` updated.
