@@ -1,0 +1,637 @@
+DEEP REFERENCE ANALYSIS, FAITHFUL IMPLEMENTATION, AND UPDATED COLOUR / TYPOGRAPHY AUTHORITY
+
+Apply these instructions to the existing project. Use the current project name, existing logo, current requirements, and actual reference locations already available to you. Do not invent filenames, paths, or missing reference contents.
+
+1. INSPECT EVERY REFERENCE IN DEPTH
+
+Go deeply into every supplied video, image, document, design file, and other reference.
+
+Do not skim, rely on thumbnails, or make assumptions from a few screenshots.
+
+For videos:
+• Inspect every scene, transition, interaction, and meaningful change.
+• Use frame-by-frame inspection wherever your tools support it.
+• Examine the beginning, middle, and end of each motion sequence.
+• Record timestamps for the specific behaviours you intend to reproduce.
+• Study geometry, depth, composition, materials, lighting, shadows, reflections, textures, layering, typography, iconography, and data representation.
+• Study how elements enter, move, transform, react, connect, and exit.
+• Examine timing, duration, delay, easing, acceleration, deceleration, overshoot, spring behaviour, staggering, looping, and synchronization.
+• Distinguish camera movement from object movement and scene transitions.
+• Inspect hover, selection, active, expanded, collapsed, loading, empty, success, warning, error, and disabled states whenever shown.
+
+For images and design files:
+• Inspect every visible component and its relationship to the overall composition.
+• Study spacing, proportions, alignment, hierarchy, geometry, depth, surface treatment, and visual density.
+• Inspect small details as carefully as major visual elements.
+
+For documents:
+• Read every accessible page, section, table, diagram, annotation, and relevant requirement.
+• Extract functional requirements separately from visual inspiration.
+• Preserve accounting rules, business logic, data relationships, and technical constraints.
+
+Treat “atom-by-atom analysis” as a demand for exhaustive practical inspection—not permission to claim access to details you cannot actually inspect.
+
+If your tools cannot open a file, inspect video frames, play a clip, or identify a motion reliably, state that limitation clearly. Do not claim to have reviewed it.
+
+2. REFERENCE FIDELITY — NOT A LOOSE INTERPRETATION
+
+For supplied designs and assets that we own, are licensed to use, or are otherwise authorized to reproduce, implement the reference as faithfully as possible.
+
+The target is the same design language and motion behaviour—not a generic approximation or a different design merely inspired by it.
+
+Preserve, where applicable:
+• Layout and composition.
+• Component proportions and spatial relationships.
+• Navigation and sidebar behaviour.
+• Iconography and icon transitions.
+• Chart and graph construction.
+• Visual data representations.
+• 3D depth and scene structure.
+• Materials and lighting.
+• Animation sequences.
+• Interaction responses.
+• Camera choreography.
+• Motion timing and easing.
+• Micro-interactions and state transitions.
+
+Do not simplify a sophisticated reference into ordinary cards, static icons, flat charts, or generic fade-in animations.
+
+Do not replace distinctive reference behaviours with whatever is easiest to implement.
+
+Where reproduction rights are unclear, flag the specific asset or design before copying it exactly. Re-create its functional behaviour and motion principles using original or properly licensed assets rather than silently copying third-party branding or proprietary assets.
+
+3. CHANGE COLOUR AND TEXT / TYPOGRAPHY ACCORDING TO THE LATEST DIRECTION
+
+Keep the reference design and motion as faithful as authorized, while adapting:
+• Colours and colour relationships.
+• Typography and interface text.
+• Our actual product content, labels, financial data, and workflows.
+• Existing KARM branding and logo.
+
+Use the most recent colour and typography prompts as the authority for these adaptations.
+
+Do not apply superseded colour or typography instructions.
+
+This instruction explicitly overrides previous restrictions such as:
+• “Use only light green.”
+• “Use less green.”
+• “Keep the old colour theme unchanged.”
+• “Use only the previous palette.”
+• Any outdated font or text-style restriction.
+
+You have full permission to explore and use any colours, including green, without being limited to green or light green.
+
+Choose a coherent palette deliberately for our current application. Do not turn unrestricted colour choice into arbitrary or inconsistent colouring.
+
+Use the latest typography direction to adapt font families, weights, hierarchy, sizes, spacing, line heights, numerical styles, labels, and interface copy.
+
+If the latest colour or typography prompt is not available in your context, identify that missing input instead of silently reverting to an old prompt.
+
+Preserve our existing logo identity. Do not replace it with a newly invented Fibonacci, nature-inspired, or other logo.
+
+4. COPY THE MOTION LANGUAGE ACROSS THE ENTIRE APPLICATION
+
+Apply the inspected reference behaviour throughout the application, not only to the landing screen or hero section.
+
+Cover:
+• Main navigation.
+• Sidebars and nested navigation.
+• Headers and toolbars.
+• Tabs and segmented controls.
+• Menus, radial menus, dropdowns, and context menus.
+• Buttons, toggles, sliders, inputs, and selectors.
+• Search, filtering, sorting, and pagination.
+• Cards, panels, drawers, modals, and tooltips.
+• Tables, pivot tables, and expandable rows.
+• Notifications, badges, status indicators, and live activities.
+• Onboarding and guided workflows.
+• Invoice creation and accounting workflows.
+• Dashboards and analytics.
+• Charts, graphs, networks, maps, and other visual representations.
+• Loading, empty, offline, error, success, and recovery states.
+• Background scenes and the KARM watermark.
+• Responsive and touch interactions.
+
+For each component, explain and implement:
+1. Its resting appearance.
+2. Its trigger.
+3. Its movement path.
+4. Its timing and easing.
+5. Its geometry or material transformation.
+6. Its response to user input and real data.
+7. Its final state.
+8. Its reverse, cancellation, or recovery behaviour.
+
+Where a reference does not show a particular state, derive a consistent extension and label it as an inferred design decision.
+
+5. EXTEND THE SAME VISUALIZATION AND MOTION LANGUAGE TO ALL CHART TYPES
+
+Study exactly how the reference charts and visual representations are built and animated.
+
+Preserve their authorized visual language, depth treatment, materials, lighting, transitions, selection behaviour, tooltips, drill-downs, and data-update motion.
+
+For visualization types not demonstrated in the references, create consistent extensions of the same system. Do not introduce unrelated chart styles.
+
+Cover the following complete visualization catalogue.
+
+A. COMPARISON
+• Vertical bar chart.
+• Horizontal bar chart.
+• Grouped / clustered bar chart.
+• Stacked bar chart.
+• 100% stacked bar chart.
+• Lollipop chart.
+• Bullet chart.
+• Radar / spider chart.
+• Dot plot / Cleveland dot plot.
+• Slope chart.
+• Dumbbell chart.
+• Pictograph / icon chart.
+
+B. TRENDS OVER TIME
+• Line chart.
+• Multi-line chart.
+• Area chart.
+• Stacked area chart.
+• Streamgraph.
+• Sparkline.
+• Step chart.
+• Candlestick chart.
+• OHLC chart.
+• Gantt chart.
+• Timeline.
+• Calendar heatmap.
+• Cycle plot.
+• Horizon chart.
+
+C. PART-TO-WHOLE
+• Pie chart.
+• Donut chart.
+• Treemap.
+• Sunburst chart.
+• Waffle chart.
+• Marimekko / Mekko chart.
+• Waterfall chart.
+• Stacked area chart.
+
+D. DISTRIBUTION
+• Histogram.
+• Box plot / box-and-whisker plot.
+• Violin plot.
+• Density plot / KDE.
+• Strip plot.
+• Swarm plot.
+• Ridgeline / joy plot.
+• Stem-and-leaf plot.
+• Frequency polygon.
+• Ogive / cumulative frequency chart.
+• Q-Q plot.
+• ECDF plot.
+
+E. RELATIONSHIPS AND CORRELATION
+• Scatter plot.
+• Bubble chart.
+• Scatter matrix / pair plot.
+• Heatmap.
+• Correlation matrix.
+• Hexbin plot.
+• Contour plot.
+• Connected scatter plot.
+• Regression plot.
+
+F. FLOW AND PROCESS
+• Sankey diagram.
+• Alluvial diagram.
+• Chord diagram.
+• Funnel chart.
+• Flowchart.
+• Parallel coordinates plot.
+• Arc diagram.
+
+G. HIERARCHY AND NETWORKS
+• Tree diagram.
+• Dendrogram.
+• Org chart.
+• Network / node-link graph.
+• Circle packing.
+• Icicle chart.
+• Mind map.
+
+H. GEOSPATIAL
+• Choropleth map.
+• Dot density map.
+• Proportional symbol map.
+• Geographic heatmap.
+• Flow map.
+• Cartogram.
+• Hexbin map.
+• Tile grid map.
+
+I. STATISTICAL AND QUALITY CONTROL
+• Control chart.
+• Run chart.
+• Pareto chart.
+• Fishbone / Ishikawa diagram.
+• Scatter plot with confidence bands.
+• Error bar chart.
+• Forest plot.
+• Funnel plot.
+• ROC curve.
+• Confusion matrix.
+• Bland–Altman plot.
+
+J. PROJECT AND BUSINESS
+• Gantt chart.
+• Burndown chart.
+• Burnup chart.
+• Kanban board.
+• PERT chart.
+• KPI dashboard.
+• Gauge.
+• Speedometer.
+• Scorecard.
+• SWOT matrix.
+• Venn diagram.
+• Quadrant / 2×2 matrix.
+• Sparkline table.
+
+K. OTHER VISUAL REPRESENTATIONS
+• Data table.
+• Pivot table.
+• Word cloud.
+• Polar area / Nightingale rose chart.
+• Radial bar chart.
+• 3D surface plot.
+• Population pyramid.
+• Violin / bean plot.
+• Infographic.
+• Integrated dashboard.
+
+Design a unified visualization system covering every type above. Implement each type where the actual product requirements and available data justify it; do not fabricate data or force irrelevant statistical charts into accounting screens.
+
+For each applicable visualization, define:
+• The business question it answers.
+• Required data and units.
+• Geometry and spatial arrangement.
+• Reference-derived material and lighting.
+• Entry and exit animation.
+• Data-update animation.
+• Hover, focus, selection, and tooltip behaviour.
+• Filtering, comparison, zoom, and drill-down behaviour.
+• Loading, empty, missing-data, and error states.
+• Reduced-motion and readable presentation alternatives.
+
+Motion must explain real changes. Do not animate values in ways that misrepresent the underlying data.
+
+6. RETAIN THE KARM LIVING-UNIVERSE REQUIREMENTS
+
+Keep the supplied nature, biology, mathematics, geometry, ecosystems, natural processes, Tesla-inspired effects, and additional creative systems as a separate conceptual reference library.
+
+Do not confuse that written library with the actual videos, images, or documents.
+
+Integrate at least 50 distinct, relevant concepts meaningfully across the application. Document each concept’s actual role rather than counting the same motif repeatedly.
+
+They must represent tasks, statuses, relationships, workflows, or system behaviour—not merely decorate the background.
+
+Maintain the intended 80–85% or greater 3D-led experience in the standard immersive mode, while preserving readable text, accurate accounting workflows, responsive controls, and a usable reduced-motion alternative.
+
+Use the existing KARM logo as a subtle 3D background watermark with a target opacity of 6%, naturally integrated into the scene without obscuring information.
+
+7. PROVIDE EVIDENCE OF WHAT YOU ANALYSED AND BUILT
+
+Before implementation, return:
+
+A. A reference inventory:
+• Exact reference identifier or filename.
+• Whether it was successfully inspected.
+• What it contains.
+• Relevant timestamps, frames, pages, or sections.
+• Reproduction-rights uncertainties, if any.
+
+B. A reference-to-component map:
+• Reference.
+• Target screen or component.
+• Visual details to preserve.
+• Motion details to preserve.
+• Colour and typography adaptations.
+• Any inferred behaviour.
+
+C. A visualization coverage matrix:
+• Every visualization listed above.
+• Relevant product use case.
+• Required data availability.
+• Reference-derived motion treatment.
+• Implementation priority.
+• Reason if not currently applicable.
+
+D. A fidelity checklist:
+• What matches the reference.
+• What changed only for colour, typography, branding, or actual content.
+• What remains incomplete.
+• What could not be verified.
+
+After implementation, compare the result against the actual references—not against your memory of them.
+
+Do not claim “same-to-same,” “fully inspected,” or “complete” unless you can substantiate that claim.
+
+8. START WITH ANALYSIS, NOT RANDOM REDESIGN
+
+First inspect the available project and references.
+
+Then produce the deep reference audit, updated colour and typography direction, reference-to-component map, and implementation plan.
+
+Preserve the working backend and existing business logic.
+
+Do not perform destructive changes or begin the full frontend rebuild until the plan is approved.
+
+The goal is faithful, authorized reference execution with updated colours and typography—not a generic redesign, a loose mood-board interpretation, or a static dashboard with decorative 3D effects.
+ADDITIONAL OVERRIDE: THREE VISUAL MODES, COMPLETE FRONTEND EXECUTION, AND AUTONOMOUS IMPROVEMENT
+
+These instructions take precedence over earlier instructions where they conflict.
+
+1. BUILD THREE COMPLETE VISUAL MODES
+
+The application must include:
+
+A. DAY MODE
+B. NIGHT MODE
+C. CLASSIC MODE
+
+These must be three fully developed, coherent visual systems—not simply one interface with its background colour changed.
+
+All modes must share the same product capabilities, accurate data, navigation logic, and functional workflows. Each mode may express those capabilities through its own coherent colours, materials, lighting, backgrounds, and visual treatment.
+
+A. DAY MODE — FULL CREATIVE FREEDOM
+
+You have complete creative freedom for Day mode.
+
+You are not restricted to:
+• Our template colours.
+• The previous colour theme.
+• Green or light green.
+• Any superseded palette.
+• The visual treatment of Classic mode.
+
+Use the latest colour and typography direction to create the strongest advanced Day-mode experience you can deliver.
+
+Explore colours, materials, lighting, surfaces, depth, contrast, typography, and motion freely.
+
+Do not interpret “Day” as a generic white dashboard.
+Create a distinctive, immersive, premium KARM experience.
+
+B. NIGHT MODE — FULL CREATIVE FREEDOM
+
+You have complete creative freedom for Night mode.
+
+You are not restricted to our templates or previous colour palette.
+
+Develop an intentional night-time visual system with its own:
+• Palette and semantic colours.
+• Scene lighting.
+• Material treatment.
+• Surface hierarchy.
+• Typography treatment.
+• Chart colours.
+• Particle and energy effects.
+• Glow and reflection treatment.
+• Focus and interaction indicators.
+
+Do not interpret “Night” as merely inverting Day mode or making everything black.
+
+Create a distinctive, immersive, premium KARM experience while preserving readability and clear information hierarchy.
+
+C. CLASSIC MODE — TEMPLATE-BASED IDENTITY
+
+Only Classic mode must be based on our existing templates and their theme.
+
+Inspect the actual supplied templates and derive Classic mode from their:
+• Brand palette.
+• Typography, where specified.
+• Visual hierarchy.
+• Graphic language.
+• Surface treatment.
+• Overall identity.
+
+Do not invent template details you have not inspected.
+
+Translate the template identity into a complete application experience. Classic mode must not be an unfinished fallback.
+
+Keep it polished, functional, and consistent with the reference-driven interface and motion system. Where the templates do not define a detail, extend their visual language thoughtfully.
+
+The template-theme restriction applies to Classic mode only.
+Do not impose it on Day or Night mode.
+
+2. MODE SWITCHING AND CONSISTENCY
+
+Provide a clearly accessible mode selector for Day, Night, and Classic.
+
+Requirements:
+• Allow explicit user selection.
+• Remember the selected mode.
+• Apply it consistently across every screen and component.
+• Preserve the active route, entered form data, filters, selections, and task progress when switching.
+• Update charts, tooltips, menus, modals, tables, notifications, 3D scenes, and overlays—not just the page background.
+• Use coordinated mode-transition motion without blocking interaction.
+• Respect reduced-motion preferences.
+• Prevent flashes of the wrong theme during loading.
+• Do not rely on colour alone to communicate status.
+• Verify contrast, focus visibility, and data-series distinction in every mode.
+
+Keep the actual KARM logo identity intact in all modes.
+Retain the subtle 6% target-opacity 3D logo watermark without compromising readability.
+
+3. COMPLETE FRONTEND IMPLEMENTATION IS NOW AUTHORIZED
+
+For this stage, work on the complete frontend.
+
+This overrides the previous instruction to stop after the audit or wait for approval before beginning the ordinary frontend rebuild.
+
+Perform the reference analysis and planning as the opening steps, then proceed directly into implementation of safe, in-scope frontend work.
+
+Do not stop after:
+• A mood board.
+• A design proposal.
+• A landing page.
+• A single dashboard.
+• A static mockup.
+• A partial component library.
+• A few isolated animations.
+
+Build the full frontend for all currently defined product requirements.
+
+Cover:
+• All required routes and screens.
+• Navigation and sidebars.
+• All three visual modes.
+• Shared components and design tokens.
+• Forms and validation.
+• Tables and data presentation.
+• Reference-driven iconography.
+• 3D scenes and interactions.
+• Charts, graphs, and visual representations from the complete preceding catalogue.
+• Search, sorting, filtering, and pagination.
+• Loading, empty, offline, error, success, and disabled states.
+• Responsive layouts.
+• Keyboard and touch interactions.
+• Accessibility and reduced-motion alternatives.
+• Frontend integration with existing APIs and application state.
+
+Retain the previous deep-reference fidelity requirements, minimum-50 conceptual reference integration requirement, and visualization coverage matrix.
+
+Use real existing integrations where available. If a backend capability is missing, build the appropriate frontend contract and clearly identify the dependency.
+
+Use clearly labelled development fixtures only when necessary. Never present mock data as live business data or imply that an unimplemented integration works.
+
+4. USE THE MOST ADVANCED SUITABLE CAPABILITIES AVAILABLE
+
+“Best” means the most advanced and effective capability available for the actual task—not merely the newest name, highest cost, or largest collection of tools.
+
+Inspect the capabilities genuinely available in your environment.
+
+Use the strongest suitable:
+• Orchestrator or lead agent.
+• Design-reference analysis agents.
+• Creative-direction and UI/UX agents.
+• Frontend engineering agents.
+• 3D, shader, particle, and motion specialists.
+• Data-visualization specialists.
+• Typography and colour-system specialists.
+• Accessibility reviewers.
+• Testing and browser-automation agents.
+• Performance and security reviewers.
+• Models.
+• Skills.
+• Extensions.
+• Plugins.
+• Development and design tools.
+
+Where specialist agents and parallel execution are supported, delegate independent work and coordinate their outputs through a shared design system and implementation plan.
+
+Where those capabilities are unavailable, perform the roles within the available environment and disclose the limitation.
+
+Do not claim to have used agents, models, plugins, extensions, or specialist tools that were not actually available or invoked.
+
+Evaluate tools for:
+• Task suitability.
+• Output quality.
+• Compatibility.
+• Reliability.
+• Security and permissions.
+• Licensing.
+• Performance impact.
+• Cost.
+
+Use advanced capabilities to improve the result—not to add unnecessary dependencies or complexity.
+
+Do not purchase services, enable paid-model usage, install untrusted extensions, expose credentials, or send private project files to additional external services without explicit authorization.
+
+5. AUTONOMOUS EXECUTION WITH CLEAR BOUNDARIES
+
+Work with maximum practical automation within the authorized frontend scope.
+
+Do not repeatedly ask me to approve routine:
+• Component implementation.
+• Styling decisions within the mode rules.
+• Reference-derived animation work.
+• Safe frontend refactoring.
+• Local tests.
+• Build checks.
+• Accessibility fixes.
+• Performance improvements.
+• Documentation and progress updates.
+
+Make justified implementation decisions and keep moving.
+
+However, frontend automation does not authorize:
+• Destructive deletion of project assets or user data.
+• Backend schema changes or backend rewrites.
+• Changes to accounting rules or financial records.
+• Production deployment or publishing.
+• Purchases or unapproved paid usage.
+• Changes to credentials, permissions, or security controls.
+• Uploading private materials to new third-party services.
+• Actions outside the agreed product scope.
+
+Request approval only when one of these boundaries is reached, a consequential requirement is ambiguous, or a genuine blocker requires owner input.
+
+Preserve working backend contracts and existing business logic.
+
+6. CONTINUOUS BUILD–REVIEW–IMPROVE LOOP
+
+Do not stop at the first working version.
+
+Within the execution time and capabilities actually available, repeat:
+
+1. Inspect the current result.
+2. Compare it with the supplied references.
+3. Identify the highest-impact gap.
+4. Implement the improvement.
+5. Run relevant checks.
+6. Review all three modes.
+7. Check responsive and reduced-motion behaviour.
+8. Update the progress record.
+9. Continue with the next meaningful improvement.
+
+Review:
+• Reference fidelity.
+• Motion timing and quality.
+• Layout and spatial composition.
+• Iconography.
+• Typography.
+• Colour coherence.
+• Chart accuracy and readability.
+• Interaction completeness.
+• Accessibility.
+• Responsiveness.
+• Rendering performance.
+• Loading behaviour.
+• Runtime errors.
+• Frontend integration reliability.
+
+Once a feature meets its acceptance criteria, stabilize it and improve the next unresolved area. Do not create endless redesign churn, unnecessary rewrites, or new features outside the agreed scope.
+
+My intention is for you to continue building and improving without unnecessary pauses until I explicitly ask you to stop.
+
+Operate according to that intention for as long as your actual environment supports execution. Do not pretend to work in the background after execution has ended.
+
+If a session, context, runtime, budget, or platform limit is reached:
+• Save the current work safely.
+• Record completed work.
+• Record remaining issues and blockers.
+• Record the exact next action.
+• State that execution has paused.
+• Resume from that checkpoint when execution becomes available again.
+
+When I say “stop,” stop safely and preserve the current state.
+
+7. VERIFY THE COMPLETE FRONTEND
+
+Use available automated and manual inspection tools to verify:
+• All required routes.
+• All three modes.
+• All primary user journeys.
+• Navigation and sidebar states.
+• Form behaviour and validation.
+• Chart and visualization states.
+• Keyboard navigation and focus.
+• Touch and mobile layouts.
+• Reduced-motion behaviour.
+• Frontend error handling.
+• Rendering and loading performance.
+
+Where browser or screenshot-comparison tools are available, use them to inspect the rendered implementation against the references.
+
+Do not claim a check passed if it was not run.
+Distinguish implemented, tested, partially tested, and blocked work.
+
+8. START NOW
+
+Inspect the project and available references.
+
+Establish the shared frontend architecture and the three mode systems.
+
+Then implement the complete frontend, using the most advanced suitable capabilities genuinely available.
+
+Continue through the build–review–improve loop without waiting for routine approvals.
+
+Preserve the backend, respect the stated safety and cost boundaries, and keep an accurate progress record throughout.

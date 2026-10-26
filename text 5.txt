@@ -1,0 +1,182 @@
+'Data Source Integration: Will the system pull data directly via live ERP/accounting APIs (such as Zoho Books, QuickBooks, or Tally), or will it rely on uploaded structured datasets (CSV/JSON/Excel financial statements)?
+We have one rule backend fully zoho book and How we use Zoho Books
+Zoho Books is our accounting system. It is the source of truth for customers, vendors, invoices, bills, payments, expenses, and financial reports. Zoho Books supports invoicing, payment tracking, expense recording, bank reconciliation, tax workflows, and reporting.[zoho +1]
+Your agent should use Zoho Books for:
+•	Customers and vendors: Look up contact details, outstanding balances, and transaction history.
+•	Invoices and payments: Create, send, and track customer invoices; check whether an invoice has been paid.
+•	Bills and expenses: Record supplier bills, expenses, and receipts.
+•	Bank transactions: Reconcile payments and identify unmatched transactions.
+•	Reports: Pull sales, receivables, payables, cash-flow, and tax-related information.
+•	Automation: Send payment reminders and keep financial records updated.[zoho +1]
+How we use our app
+Our app is the business-facing system where users do their day-to-day work. It should not replace Zoho Books; instead, it connects to Zoho Books so financial data stays consistent.
+Use our app for:
+•	User actions: Creating orders, requests, tasks, or records relevant to our business.
+•	Operational data: Tracking work status, customer activity, and app-specific details.
+•	Workflow triggers: When something important happens in our app, update or create the matching record in Zoho Books.
+•	Financial visibility: Show invoice, payment, or balance information from Zoho Books inside our app when needed.
+How the two systems work together
+The agent should treat our app as the operational layer and Zoho Books as the accounting layer.Rules for the agent
+•	Always verify the customer, invoice, or vendor before creating or changing a record.
+•	Do not create duplicate invoices, customers, or payments.
+•	Use Zoho Books for final financial records and reports.
+•	Use our app for business workflow and operational context.
+•	If information is missing, ask the user before making a financial entry.
+•	For sensitive actions—such as sending invoices, recording payments, or deleting records—confirm with the user first.  
+Zoho Books can be connected to AI agents through its API or MCP integration, allowing the agent to create invoices, record expenses, reconcile transactions, and retrieve data across connected applications.
+Create a fully 3D, hyper-immersive application built around the Karm theme, where 80–85% or more of the experience is driven by advanced 3D motion graphics. Every element must be visually stunning, deeply integrated, and animated in the most creative and impactful way possible.
+
+Use React Three Fiber (R3F) with Drei and Tailwind CSS as the default stack. Use Three.js underneath R3F for meshes, materials, lights, cameras, animations, and rendering. Use custom GLSL shaders only when necessary for advanced effects such as particles, fluid motion, refraction, bioluminescence, energy arcs, noise, distortion, or post-processing. If the project is non-React or requires direct low-level rendering control, use pure Three.js instead.
+
+The application must feel like a cohesive, living 3D universe where everything is interconnected. Tasks, statuses, workflows, data relationships, notifications, users, and system states must be represented as dynamic 3D objects, organisms, energy fields, networks, and natural systems. Nothing should feel like a flat dashboard with decorative 3D elements; the 3D world itself must communicate meaning.
+
+Integrate the following references as living, dynamic parts of the 3D world. Use only the references required for each feature, but aim to use at least 50 across the full application. Do not treat them as static icons or background decorations. They must actively represent tasks, statuses, workflows, data, and interactions, responding intelligently as the user engages.
+
+Nature and biology references may include: nautilus shell, sunflower seed heads, pinecones, pineapples, Romanesco broccoli, honeycomb, snowflakes, hurricanes, spiral galaxies, human cochlea, river meanders, coastlines, tree branching, orb webs, spider silk, web vibrations, Morpho butterflies, peacock feathers, chameleons, cuttlefish, octopus, mimic octopus, anglerfish, tardigrades, immortal jellyfish, Antarctic icefish, Sahara silver ants, Namib desert beetle, hydrothermal vent tube worms, Welwitschia, gecko feet, basilisk lizard, bombardier beetle, mantis shrimp, shark skin, lotus leaf, kingfisher beak, honeybee waggle dance, ant colonies, slime mold, fireflies, bowerbirds, peacock spiders, birds of paradise, Ophrys orchids, corpse flower, termite mounds, weaver birds, beavers, coral polyps, Grand Canyon, plate tectonics, Great Barrier Reef, monarch butterflies, Arctic terns, Serengeti migration, axolotls, Venus flytrap, mudskippers, and flying fish.
+
+Mathematics and pattern references may include: Fibonacci sequence, golden ratio, golden angle, logarithmic spirals, fractals, fractal branching, self-similarity, hexagonal tiling, symmetry groups, bilateral symmetry, radial symmetry, prime numbers, packing problems, tessellation, power laws, chaos theory, statistical distributions, optimization, minimal surfaces, angle optimization, coastline paradox, fractal dimension, wave interference, sine wave motion, catenary curves, exponential growth, geometric growth, modular cycles, angle of repose, surface-area-to-volume ratio, golden rectangle comparisons, symmetry breaking, network efficiency, selection statistics, scaling laws, allometry, optimal foraging, game theory, combinatorics, emergent group math, frequency tuning, quantity sense, vector-like signaling, spiral phyllotaxis, tiling efficiency, random walk models, curve fitting, branching ratios, hierarchical classification, square-cube law, periodicity, orbital geometry, angular momentum, statistical clustering, low-error replication, discrete versus continuous growth, optimal packing, low-frequency wave range, and crystal symmetry.
+
+Shapes and structures may include: honeycomb hexagons, Giant’s Causeway hexagons, pentagons, horn spirals, tail spirals, fiddlehead spirals, DNA helix, tendril helix, narwhal tusk helix, parallel lines, parallel ridges, dendritic branching, radial webs, radial petals, concentric circles, concentric rings, turtle-shell polygons, giraffe polygons, triangular bracing, pinecone cones, cone-snail cones, dew spheres, pufferfish spheres, asymmetric ovals, cylinders, tubes, layering, lattice structures, radiating fans, fan growth, star shapes, star cross-sections, rosettes, rosette growth, zigzag patterns, chevron patterns, nested arcs, curved load-bearing surfaces, termite domes, turtle domes, arch-like tension structures, grids, irregular grids, braided patterns, fingerprint whorls, petal whorls, hollow cross-sections, tapering forms, interlocking shapes, bifurcation, overlapping ridges, mountain ridges, eye facets, crystal facets, layered spirals, symmetrical branching, and fractal coastlines.
+
+Processes and systems may include: photosynthesis, cellular respiration, bioluminescence, magnetoreception, echolocation, capillary action, osmoregulation, thermoregulation, structural color, chemical camouflage, chromatophores, venom biochemistry, antibiotic production, nitrogen fixation, decomposition, symbiosis, mycorrhizal networks, circadian rhythms, hibernation, torpor, diapause, metamorphosis, regeneration, autotomy, immune memory, antifreeze proteins, extremophiles, chemosynthesis, desiccation tolerance, diffusion, countercurrent exchange, electrolocation, pheromone signaling, quorum sensing, mutation and selection, convergent evolution, coevolution, epigenetics, polyploidy, vestigial structures, homeostasis, high-altitude adaptation, bioaccumulation, cryptobiosis, parthenogenesis, sexual selection, kin selection, Batesian mimicry, Müllerian mimicry, aposematism, pressure adaptation, photoperiodism, vernalization, allelopathy, biofilm formation, sensory adaptation, endothermy versus ectothermy, cellular differentiation, apoptosis, and hormesis.
+
+Ecosystem and biodiversity references may include: Amazon rainforest, coral reefs, Madagascar, Galápagos Islands, deep sea, endemic species, keystone otters, keystone wolves, biodiversity hotspots, mangrove forests, peat bogs, cave ecosystems, polar biodiversity, migratory corridors, kelp forests, old-growth forests, freshwater biodiversity, island gigantism, island dwarfism, convergent adaptation, pollinator diversity, symbiotic reef relationships, cryptic species, species richness gradient, vertical stratification, wetland biodiversity, desert biodiversity, Arctic tundra, chemosynthetic ecosystems, fungal diversity, soil biodiversity, endangered species recovery, invasive species impact, coevolved specialists, bird diversity, insect diversity, marine biodiversity center, genetic diversity, pole-to-pole migration, ecosystem engineers, species interdependence, habitat specialists, habitat generalists, reef fish diversity, amphibian sensitivity, megafauna influence, seed dispersal networks, bat diversity, deep-ocean adaptation, grassland biodiversity, river biodiversity, coral bleaching sensitivity, niche partitioning, pollinator dependency, ancient lineages, living fossils, microbial diversity, and elevated extinction rates.
+
+Iconic natural phenomena and behaviors may include: mantis shrimp punch, DNA double helix, octopus arms, Morpho butterfly blue, mantis shrimp vision, fern fractal fronds, starling murmurations, weaver bird nests, anglerfish lure, chameleon color change, monarch butterfly migration, Arctic tern migration, Serengeti wildebeest migration, beaver dams, nitrogen-fixing bacteria, electric eels, countercurrent heat exchange, deep-sea pressure adaptation, cryptobiosis in brine shrimp, fig-wasp coevolution, bird egg shape, Voronoi-like patterning, turtle shell scutes, diatoms, elephants as ecosystem engineers, Madagascar endemism, the Coral Triangle, the human gut microbiome, and horseshoe crabs.
+
+Reimagine UI and UX patterns in 3D. Use golden-ratio layouts, Fibonacci spiral logo, honeycomb dashboard grid, golden-angle radial menu, Voronoi card backgrounds, fractal branching navigation, catenary-curve dividers, murmuration loading animation, waggle-dance onboarding, spider-web radial dashboard, nautilus spiral scroll, bioluminescent CTA glow, chameleon adaptive theming, octopus camouflage micro-interactions, termite-mound breathing panels, coral-growth org chart, snowflake-symmetric icon set, tessellated empty states, river-meander progress bar, kingfisher-beak transitions, shark-skin micro-texture, lotus-effect empty inbox, gecko-grip sticky headers, peacock-tail hero banner, bowerbird color-sorted inventory, firefly-synced notifications, slime-mold route suggestions, weaver-bird iterative invoice flow, beaver-dam data pooling, antler-branching filters, turtle-shell tiling, diatom-lattice loading skeletons, starfish radial bottom navigation, flying-fish glide transitions, countercurrent contrast pairing, immortal-jellyfish revert feature, axolotl regrowth animation, tardigrade resilience badge, mantis-shrimp accessible palette, DNA-helix onboarding flow, spider-silk catenary progress bar, coastline-paradox zoom, angle-of-repose chart animation, symmetry-breaking accent, homeostasis auto-balance, circadian auto dark and light mode, countercurrent tooltip placement, chemosynthesis offline engine, cryptobiosis idle state, squircle buttons, golden-spiral onboarding carousel, vesica-piscis connection icon, flower-of-life watermark, Perlin-noise hero backgrounds, Hilbert-curve heatmaps, Fourier-spectrum analytics view, Lissajous-curve brand animation, aposematism-style alert colors, Batesian-mimicry positioning, coevolution partner marketing, keystone-species positioning, mycelium-network referrals, coral-reef ecosystem messaging, migration-pattern seasonal campaigns, bowerbird brand curation, waggle-dance referral messaging, fig-wasp exclusivity story, horseshoe-crab longevity story, tagline reinforcement, phyllotaxis distribution matrices, hydrodynamic boundary layers, isomorphic state hashing, autopoietic feedback loops, tensegrity structural balancing, rheonomic constraint handling, allometric scaling coefficients, holographic memory dispersal, dissipative structure dynamics, and hyperbolic tessellation grids.
+
+Include Tesla-inspired energy elements where appropriate: Tesla coil energy arcs, alternating current waveforms, rotating magnetic fields, wireless power transmission visuals, scalar wave patterns, resonant frequency rings, plasma globe effects, electromagnetic field lines, Tesla turbine spirals, lightning discharge animations, vibrational energy harmonics, AC motor rotation patterns, high-frequency oscillator pulses, neon and luminescent glow effects, and electromechanical resonance structures.
+
+Also integrate creative systems such as quantum probability clouds, neural network activations, mycelial growth networks, swarm intelligence patterns, crystal growth simulations, fluid dynamics vortices, magnetic field topologies, light refraction prisms, acoustic standing waves, gravitational lensing curves, cellular automata evolutions, fractal flame iterations, L-system growth forms, reaction-diffusion patterns, strange attractor trajectories, minimal surface films, hyperbolic space tilings, conformal mapping transforms, topological surface morphs, and non-Euclidean geometry spaces.
+
+Use data visualization types as rich, animated 3D components wherever relevant. They must not merely display numbers; they must become part of the living Karm ecosystem.
+
+Use comparison visualizations such as vertical and horizontal bar charts, grouped bar charts, stacked and 100% stacked bar charts, lollipop charts, bullet charts, radar or spider charts, dot plots, Cleveland dot plots, slope charts, dumbbell charts, and pictograph icon charts.
+
+Use trend visualizations such as line charts, multi-line charts, area charts, stacked area charts, streamgraphs, sparklines, step charts, candlestick or OHLC charts, Gantt charts, timelines, calendar heatmaps, cycle plots, and horizon charts.
+
+Use part-to-whole visualizations such as pie charts, donut charts, treemaps, sunburst charts, waffle charts, Marimekko charts, waterfall charts, and stacked area charts.
+
+Use distribution visualizations such as histograms, box plots, violin plots, density or KDE plots, strip and swarm plots, ridgeline plots, stem-and-leaf plots, frequency polygons, ogive charts, Q-Q plots, and ECDF plots.
+
+Use relationship and correlation visualizations such as scatter plots, bubble charts, scatter matrices, heatmaps, correlation matrices, hexbin plots, contour plots, connected scatter plots, and regression plots.
+
+Use flow and process visualizations such as Sankey diagrams, alluvial diagrams, chord diagrams, funnel charts, flowcharts, parallel coordinates plots, and arc diagrams.
+
+Use hierarchy and network visualizations such as tree diagrams, dendrograms, org charts, node-link network graphs, circle packing, icicle charts, and mind maps.
+
+Use geospatial visualizations such as choropleth maps, dot density maps, proportional symbol maps, geographic heatmaps, flow maps, cartograms, hexbin maps, and tile grid maps.
+
+Use statistical and quality-control visualizations such as control charts, run charts, Pareto charts, fishbone or Ishikawa diagrams, scatter plots with confidence bands, error bar charts, forest plots, funnel plots, ROC curves, confusion matrices, and Bland-Altman plots.
+
+Use project and business visualizations such as Gantt charts, burndown and burnup charts, Kanban boards, PERT charts, KPI dashboards, gauges, speedometers, scorecards, SWOT matrices, Venn diagrams, quadrant matrices, and sparkline tables.
+
+Use other visualizations such as data tables, pivot tables, word clouds, polar area or Nightingale rose charts, radial bar charts, 3D surface plots, population pyramids, violin or bean plots, infographics, and dashboards.
+
+The background must feature a subtle 6% opacity 3D watermark of the Karm logo. It must be naturally embedded into the scene, always present but never distracting. It may respond subtly to camera movement, lighting, user interaction, or system state, but it must remain secondary to the main interface and content.
+
+Use advanced 3D motion graphics, shaders, particles, volumetric lighting, refraction, reflections, bloom, depth of field, camera choreography, physics-inspired movement, and intelligent transitions. Every interaction should feel like part of a greater, intelligent, karmic whole. Actions should visibly ripple through the ecosystem: completing a task may trigger growth, light, connection, migration, energy transfer, or a data visualization update.
+
+References and videos:
+
+Before implementing any 3D feature, search for and review relevant official documentation, examples, CodeSandbox examples, GitHub repositories, and video tutorials. Use these references to understand the correct API, best practices, performance techniques, and visual approach before writing code.
+
+Use video tutorials and demo videos as practical learning references for complex features such as scroll-based 3D animations, camera movements, cinematic transitions, product configurators, particle systems, custom GLSL shaders, distortion or liquid effects, post-processing, model loading and optimization, interactive 3D scenes, and mobile performance optimization.
+
+How to use references and videos:
+1. Identify the exact feature or visual effect required.
+2. Search official documentation and examples for the relevant React Three Fiber, Drei, Three.js, Tailwind CSS, or GLSL API.
+3. Search for recent YouTube tutorials, demo videos, CodeSandbox examples, and GitHub repositories showing the same or similar effect.
+4. Study the video or example to understand scene setup, animation logic, shader logic, camera movement, lighting, materials, and performance approach.
+5. Adapt the technique to the current Karm project instead of copying it blindly.
+6. Use only techniques that match the project requirements, design direction, browser support, and performance constraints.
+7. If multiple approaches exist, choose the simpler, more maintainable, and more performant option.
+8. Include links to the documentation, examples, and videos used as references in the final response.
+
+Preferred reference sources:
+- React Three Fiber official documentation: https://r3f.docs.pmnd.rs/
+- Drei documentation: https://github.com/pmndrs/drei
+- Three.js official documentation: https://threejs.org/docs/
+- Three.js examples: https://threejs.org/examples/
+- Tailwind CSS documentation: https://tailwindcss.com/docs
+- GLSL documentation and shader examples where custom shaders are needed
+- Recent YouTube tutorials and visual demo videos for complex 3D effects
+
+Karm colorography:
+
+Use a premium, cosmic, bioluminescent, nature-inspired color system. The palette must feel intelligent, alive, energetic, and futuristic while remaining readable and accessible.
+
+Primary brand color:
+- Karm Cosmic Violet: #7C3AED
+
+Secondary brand colors:
+- Deep Space Indigo: #1E1B4B
+- Electric Cyan: #22D3EE
+- Bioluminescent Teal: #14B8A6
+- Aurora Blue: #3B82F6
+
+Accent colors:
+- Plasma Magenta: #EC4899
+- Solar Amber: #F59E0B
+- Bio Green: #22C55E
+- Coral Alert: #F43F5E
+
+Neutral colors:
+- Void Black: #050510
+- Deep Nebula: #0B0B1A
+- Graphite: #1F2937
+- Mist Gray: #94A3B8
+- Lunar White: #F8FAFC
+
+Use dark cosmic backgrounds as the default. Use violet and cyan for primary interactive elements, teal and green for success or growth states, amber for warnings or energy, magenta for creative highlights, and coral red only for critical alerts. Use bioluminescent glow sparingly for CTAs, active states, notifications, and important data points. Maintain strong contrast and accessibility; avoid low-contrast text and avoid using glow in place of clear hierarchy.
+
+Karm typography:
+
+Use typography that feels modern, precise, futuristic, and human. Pair a geometric display typeface with a highly readable UI typeface and a technical monospace typeface.
+
+Primary display font:
+- Space Grotesk
+
+Use Space Grotesk for headings, hero sections, major KPIs, brand moments, and high-impact 3D UI labels.
+
+Primary UI font:
+- Inter
+
+Use Inter for body text, navigation, buttons, forms, tooltips, descriptions, tables, and interface copy.
+
+Technical or data font:
+- JetBrains Mono
+
+Use JetBrains Mono for code, IDs, timestamps, coordinates, numerical data, shader values, logs, and technical labels.
+
+Typography rules:
+- Use Space Grotesk Bold or SemiBold for headings.
+- Use Inter Regular or Medium for body and UI text.
+- Use JetBrains Mono for technical and data-focused text.
+- Maintain a clear type scale with strong hierarchy.
+- Use generous line height for readability.
+- Avoid overly thin fonts on dark backgrounds.
+- Animate text with subtle reveal, glow, parallax, or kinetic typography only where it improves meaning.
+- Ensure all text remains legible over particles, shaders, gradients, and 3D scenes.
+
+Always provide:
+- A short explanation of the chosen approach
+- Complete, runnable code
+- All required dependencies and installation commands
+- Clear file structure
+- Comments for complex shader, animation, or performance-related code
+- Performance and mobile-friendly recommendations
+- Links or references to the documentation, examples, and videos used
+
+Default stack:
+React + React Three Fiber + Drei + Tailwind CSS + Three.js, with custom GLSL only when required.
+
+Fallback stack:
+Pure Three.js + custom GLSL when the project is non-React or needs low-level rendering control.
+
+'Accounting Scope & Jurisdiction: Should the data model and tax engine prioritize a specific regulatory framework (e.g., Indian Accounting Standards [Ind AS] / GST with CGST/SGST/IGST, US GAAP, or IFRS), or should it be built as a multi-jurisdictional, configurable engine?'
+Full according to zoho books 
+'Target Audience & Platform Context: Will this application be primarily deployed as a desktop web app (e.g., using Electron or high-end browser WebGL), a mobile/tablet PWA, or a desktop presentation/reporting tool for executive boardroom displays?'
+
+For mostly ios 75% and android 15 % desktop 10%

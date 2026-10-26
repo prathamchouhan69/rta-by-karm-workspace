@@ -1,0 +1,71 @@
+Create a fully 3D, hyper-immersive application built around the Karm theme, where 80–85% (or more) of the experience is driven by advanced 3D motion graphics. Every element must be visually stunning, deeply integrated, and animated in the most creative and impactful way possible.
+
+Integrate the following references Use only required (minimum 50) as living, dynamic parts of the 3D world—do not treat them as static icons or background decorations. Let them actively represent tasks, statuses, workflows, data, and interactions, responding intelligently as the user engages:
+
+**Nature & Biology References**     
+Nautilus shell, Sunflower seed heads, Pinecones & pineapples, Romanesco broccoli, Honeycomb, Snowflakes, Hurricanes, Spiral galaxies, Human cochlea, River meanders, Coastlines, Tree branching, Orb webs, Spider silk, Darwin's bark spider, Web vibrations, Morpho butterflies, Peacock feathers, Chameleons, Cuttlefish/octopus, Mimic octopus, Anglerfish, Tardigrades, Immortal jellyfish, Antarctic icefish, Sahara silver ants, Namib desert beetle, Hydrothermal vent tube worms, Welwitschia, Gecko feet, Basilisk lizard, Bombardier beetle, Mantis shrimp, Shark skin, Lotus leaf, Kingfisher beak, Honeybee waggle dance, Ant colonies, Slime mold, Fireflies, Bowerbirds, Peacock spiders, Birds of paradise, Ophrys orchids, Corpse flower, Termite mounds, Weaver birds, Beavers, Coral polyps, Grand Canyon, Plate tectonics, Great Barrier Reef, Monarch butterflies, Arctic terns, Serengeti migration, Axolotls, Venus flytrap, Mudskippers, Flying fish.
+
+**Mathematics & Patterns**  
+Fibonacci sequence, Golden ratio, Golden angle, Logarithmic spirals, Fractals, Fractal branching, Self-similarity, Hexagonal tiling, Symmetry groups, Bilateral symmetry, Radial symmetry, Prime numbers, Packing problems, Tessellation, Power laws, Chaos theory, Statistical distributions, Optimization, Minimal surfaces, Angle optimization, Coastline paradox, Fractal dimension, Wave interference, Sine wave motion, Catenary curves, Exponential growth, Geometric growth, Modular cycles, Angle of repose, Surface-area-to-volume ratio, Golden rectangle comparisons, Symmetry breaking, Network efficiency, Selection statistics, Scaling laws, Allometry, Optimal foraging, Game theory, Combinatorics, Emergent group math, Frequency tuning, Quantity sense, Vector-like signaling, Spiral phyllotaxis, Tiling efficiency, Random walk models, Curve fitting, Branching ratios, Hierarchical classification, Square-cube law, Periodicity, Orbital geometry, Angular momentum, Statistical clustering, Low-error replication, Discrete vs. continuous growth, Optimal packing, Low-frequency wave range, Crystal symmetry.
+
+**Shapes & Structures**  
+Hexagons (honeycomb), Hexagons (Giant's Causeway), Pentagons, Spirals (horns), Spirals (tails), Spirals (fiddleheads), Helix (DNA), Helix (tendrils), Helix (narwhal tusk), Parallel lines, Parallel ridges, Dendritic branching, Radial patterns (webs), Radial patterns (petals), Concentric circles, Concentric rings, Polygons (turtle shell), Polygons (giraffe), Triangular bracing, Cones (pinecones), Cones (cone snail), Spheres (dew), Spheres (pufferfish), Ellipses/asymmetric ovals, Cylinders, Tubes, Layering, Lattice structures, Radiating fans, Fan growth, Star shapes, Star cross-sections, Rosettes, Rosette growth, Zigzag patterns, Chevron patterns, Nested arcs, Curved load-bearing surfaces, Domes (termite), Domes (turtle), Arch-like tension structures, Grids, Irregular grids, Braided patterns, Whorls (fingerprints), Whorls (petals), Hollow cross-sections, Tapering forms, Interlocking shapes, Bifurcation, Overlapping ridges, Ridges (mountains), Facets (eyes), Facets (crystals), Layered spirals, Symmetrical branching, Fractal coastlines.
+
+**Processes & Systems**  
+Photosynthesis, Cellular respiration, Bioluminescence, Magnetoreception, Echolocation, Capillary action, Osmoregulation, Thermoregulation, Structural color, Chemical camouflage, Chromatophores, Venom biochemistry, Antibiotic production, Nitrogen fixation, Decomposition, Symbiosis, Mycorrhizal networks, Circadian rhythms, Hibernation, Torpor, Diapause, Metamorphosis, Regeneration, Autotomy, Immune memory, Antifreeze proteins, Extremophiles, Chemosynthesis, Desiccation tolerance, Diffusion, Countercurrent exchange, Electrolocation, Pheromone signaling, Quorum sensing, Mutation & selection, Convergent evolution, Coevolution, Epigenetics, Polyploidy, Vestigial structures, Homeostasis, High-altitude adaptation, Bioaccumulation, Cryptobiosis, Parthenogenesis, Sexual selection, Kin selection, Batesian mimicry, Müllerian mimicry, Aposematism, Pressure adaptation, Photoperiodism, Vernalization, Allelopathy, Biofilm formation, Sensory adaptation, Endothermy vs. ectothermy, Cellular differentiation, Apoptosis, Hormesis.
+
+**Ecosystems & Biodiversity**  
+Amazon rainforest, Coral reefs, Madagascar, Galápagos Islands, Deep sea, Endemic species, Keystone species (otters), Keystone species (wolves), Biodiversity hotspots, Mangrove forests, Peat bogs, Cave ecosystems, Polar biodiversity, Migratory corridors, Kelp forests, Old-growth forests, Freshwater biodiversity, Island gigantism, Island dwarfism, Convergent adaptation, Pollinator diversity, Symbiotic reef relationships, Cryptic species, Species richness gradient, Vertical stratification, Wetland biodiversity, Desert biodiversity, Arctic tundra, Chemosynthetic ecosystems, Fungal diversity, Soil biodiversity, Endangered species recovery, Invasive species impact, Coevolved specialists, Bird diversity, Insect diversity, Marine biodiversity center, Genetic diversity, Pole-to-pole migration, Ecosystem engineers, Species interdependence, Habitat specialists, Habitat generalists, Reef fish diversity, Amphibian sensitivity, Megafauna influence, Seed dispersal networks, Bat diversity, Deep-ocean adaptation, Grassland biodiversity, River biodiversity, Coral bleaching sensitivity, Niche partitioning, Pollinator dependency, Ancient lineages, Living fossils, Microbial diversity, Elevated extinction rates.
+
+**Iconic Natural Phenomena & Behaviors**  
+Mantis shrimp punch, DNA double helix, Octopus arms, Morpho butterfly blue, Mantis shrimp vision, Fern fractal fronds, Starling murmurations, Weaver bird nests, Anglerfish lure, Chameleon color change, Monarch butterfly migration, Arctic tern migration, Serengeti wildebeest migration, Beaver dams, Nitrogen-fixing bacteria, Electric eels, Countercurrent heat exchange, Deep-sea pressure adaptation, Cryptobiosis in brine shrimp, Fig–wasp coevolution, Bird egg shape, Voronoi-like patterning, Turtle shell scutes, Diatoms, Elephants as ecosystem engineers, Madagascar's endemism, The Coral Triangle, The human gut microbiome, Horseshoe crabs.
+
+**UI/UX Pattern Inspirations (to be reimagined in 3D)**  
+Golden-ratio layouts, Fibonacci spiral logo, Honeycomb dashboard grid, Golden-angle radial menu, Voronoi card backgrounds, Fractal branching nav, Catenary-curve dividers, Murmuration loading animation, Waggle-dance onboarding, Spider-web radial dashboard, Nautilus spiral scroll, Bioluminescent CTA glow, Chameleon adaptive theming, Octopus camouflage micro-interactions, Termite-mound "breathing" panels, Coral-growth org chart, Snowflake-symmetric icon set, Tessellated empty states, River-meander progress bar, Kingfisher-beak transitions, Shark-skin micro-texture, Lotus-effect empty inbox, Gecko-grip sticky headers, Peacock-tail hero banner, Bowerbird color-sorted inventory, Firefly-synced notifications, Slime-mold route suggestion, Weaver-bird iterative invoice flow, Beaver-dam data pooling, Antler-branching filters, Turtle-shell tiling, Diatom-lattice loading skeletons, Starfish radial bottom nav, Flying-fish glide transitions, Countercurrent contrast pairing, "Immortal jellyfish" revert feature, Axolotl regrowth animation, Tardigrade resilience badge, Mantis-shrimp accessible palette, DNA-helix onboarding flow, Spider-silk catenary progress bar, Coastline-paradox zoom, Angle-of-repose chart animation, Symmetry-breaking accent, Homeostasis auto-balance, Circadian auto dark/light mode, Countercurrent tooltip placement, Chemosynthesis offline engine, Cryptobiosis idle state, Squircle buttons, Golden-spiral onboarding carousel, Vesica-piscis connection icon, Flower-of-life watermark, Perlin-noise hero backgrounds, Hilbert-curve heatmaps, Fourier-spectrum analytics view, Lissajous-curve brand animation, Aposematism-style alert colors, Batesian-mimicry positioning, Coevolution partner marketing, Keystone-species positioning, Mycelium-network referrals, Coral-reef ecosystem messaging, Migration-pattern seasonal campaigns, Bowerbird brand curation, Waggle-dance referral messaging, Fig–wasp exclusivity story, Horseshoe-crab longevity story, Tagline reinforcement, Phyllotaxis distribution matrices, Hydrodynamic boundary layers, Isomorphic state hashing, Autopoietic feedback loops, Tensegrity structural balancing, Rheonomic constraint handling, Allometric scaling coefficients, Holographic memory dispersal, Dissipative structure dynamics, Hyperbolic tessellation grids.
+
+**Tesla-Inspired Elements**  
+Tesla coil energy arcs, Alternating current waveforms, Rotating magnetic fields, Wireless power transmission visuals, Scalar wave patterns, Resonant frequency rings, Plasma globe effects, Electromagnetic field lines, Tesla turbine spirals, Lightning discharge animations, Vibrational energy harmonics, AC motor rotation patterns, High-frequency oscillator pulses, Neon/luminescent glow effects, Electromechanical resonance structures.
+
+**Additional Creative Additions**  
+Quantum probability clouds, Neural network activations, Mycelial growth networks, Swarm intelligence patterns, Crystal growth simulations, Fluid dynamics vortices, Magnetic field topologies, Light refraction prisms, Acoustic standing waves, Gravitational lensing curves, Cellular automata evolutions, Fractal flame iterations, L-system growth forms, Reaction-diffusion patterns, Strange attractor trajectories, Minimal surface films, Hyperbolic space tilings, Conformal mapping transforms, Topological surface morphs, Non-Euclidean geometry spaces.
+
+**Data Visualization Types (all to be reimagined in rich 3D motion)**   ( use as match as you can )
+
+*Comparison*  
+Bar chart (vertical/horizontal), Grouped (clustered) bar chart, Stacked bar chart / 100% stacked bar, Lollipop chart, Bullet chart, Radar (spider) chart, Dot plot / Cleveland dot plot, Slope chart, Dumbbell chart, Pictograph (icon chart).
+
+*Trends over time*  
+Line chart, Multi-line chart, Area chart / stacked area / streamgraph, Sparkline, Step chart, Candlestick / OHLC chart, Gantt chart, Timeline, Calendar heatmap, Cycle plot, Horizon chart.
+
+*Part-to-whole*  
+Pie chart, Donut chart, Treemap, Sunburst chart, Waffle chart, Marimekko (Mekko) chart, Waterfall chart, Stacked area chart.
+
+*Distribution*  
+Histogram, Box plot (box-and-whisker), Violin plot, Density plot (KDE), Strip / swarm plot, Ridgeline (joy) plot, Stem-and-leaf plot, Frequency polygon, Ogive (cumulative frequency), Q-Q plot, ECDF plot.
+
+*Relationship / correlation*  
+Scatter plot, Bubble chart, Scatter matrix (pair plot), Heatmap, Correlation matrix, Hexbin plot, Contour plot, Connected scatter plot, Regression plot.
+
+*Flow / process*  
+Sankey diagram, Alluvial diagram, Chord diagram, Funnel chart, Flowchart, Parallel coordinates plot, Arc diagram.
+
+*Hierarchy / network*  
+Tree diagram / dendrogram, Org chart, Network (node-link) graph, Circle packing, Icicle chart, Mind map.
+
+*Geospatial*  
+Choropleth map, Dot density map, Proportional symbol map, Heat map (geographic), Flow map, Cartogram, Hexbin map, Tile grid map.
+
+*Statistical / quality control*  
+Control chart (run chart), Pareto chart, Fishbone (Ishikawa) diagram, Scatter with confidence bands, Error bar chart, Forest plot, Funnel plot, ROC curve, Confusion matrix, Bland-Altman plot.
+
+*Project / business*  
+Gantt chart, Burndown / burnup chart, Kanban board, Pert chart, KPI dashboard / gauge / speedometer, Scorecard, SWOT matrix, Venn diagram, Quadrant (2x2) matrix, Sparkline table.
+
+*Other*  
+Tables (data tables, pivot tables), Word cloud, Polar area (Nightingale rose) chart, Radial bar chart, 3D surface plot, Population pyramid, Violin/bean plot, Infographics, Dashboard.
+
+Use all of the above—nature references, mathematical patterns, Tesla-inspired elements, creative additions, and every visualization type—as deeply integrated, animated 3D components throughout the app. They must not be merely displayed; they must actively represent tasks, statuses, workflows, data relationships, and system states in ways that feel alive, responsive, and meaningful.
+
+The background must feature a subtle 6% opacity 3D watermark of the Karm logo, naturally embedded into the scene so it's always present but never distracting.
+
+Build this as a cohesive, living 3D universe where everything is interconnected, visually extraordinary, and intuitively communicates what's happening, what needs attention, and how each action resonates within the Karm ecosystem. Use the most advanced 3D motion graphics, shaders, particles, lighting, and camera choreography available—freely and creatively—to make every interaction feel like part of a greater, intelligent, karmic whole.

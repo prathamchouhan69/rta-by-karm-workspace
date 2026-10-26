@@ -1,0 +1,99 @@
+CORRECTION: USE THE REFERENCES CREATIVELY — DO NOT REUSE THE OLD DESIGN
+
+I do want you to use all supplied videos, images, and other creative references.
+
+The restriction is against copying or recycling our OLD FRONTEND—not against studying the references.
+
+This overrides any previous instruction telling you to ignore the supplied videos or images.
+
+1. STUDY THE REFERENCES DEEPLY
+
+Inspect the supplied videos and images in detail.
+
+Study:
+• Iconography.
+• Motion graphics.
+• Charts and graphs.
+• Visual data representations.
+• Navigation and sidebars.
+• Transitions and micro-interactions.
+• 3D geometry, depth, materials, and lighting.
+• Camera movement.
+• Animation timing, easing, choreography, and state changes.
+
+Identify what makes each reference effective. Do not reduce the analysis to colours, screenshots, or general impressions.
+
+Do not claim to have inspected a file or motion sequence that your tools cannot actually access.
+
+2. INTERPRET THEM IN YOUR OWN UNIQUE, CREATIVE WAY
+
+Use the references as creative input—not as templates to reproduce.
+
+Extract their strongest principles, then transform, combine, and reimagine them into an original KARM experience.
+
+For example:
+• Study how a reference communicates navigation, then invent your own navigation composition and movement.
+• Study how a chart animates relationships, then create an original visualization using the same underlying communication principle.
+• Study an icon’s transformation, then develop your own icon geometry and transition.
+• Study the relationship between camera, light, and objects, then create your own scene and choreography.
+
+Do not reproduce exact scenes, layouts, assets, branding, or complete animation sequences.
+
+The result must have its own identity—not look like a collage of the references.
+
+3. DO NOT COPY OR RESKIN THE OLD FRONTEND
+
+Build a genuinely new frontend design foundation.
+
+Do not reuse the old:
+• Screen compositions.
+• Dashboard layout.
+• Navigation or sidebar composition.
+• Component styling.
+• Chart presentation.
+• Visual hierarchy.
+• Motion system.
+
+Changing colours, fonts, backgrounds, or border radii is not a redesign.
+
+Preserve working functionality, data contracts, backend integrations, and business logic—but reinvent their visual and interactive expression.
+
+“From scratch” means an original design foundation, not ignoring the references or unnecessarily rewriting working infrastructure.
+
+4. APPLY THIS THROUGHOUT THE COMPLETE FRONTEND
+
+Use your original interpretation of the references across:
+• Navigation and sidebars.
+• All screens and workflows.
+• Iconography and components.
+• Charts, graphs, maps, networks, and the complete visualization catalogue already specified.
+• Loading, empty, error, success, and offline states.
+• 3D scenes, transitions, and micro-interactions.
+
+Where a visualization type is not shown in the references, extend your newly created design and motion language consistently.
+
+5. KEEP THE THREE-MODE RULES
+
+• Day: full creative freedom in colour and visual treatment.
+• Night: full creative freedom in colour and visual treatment.
+• Classic: based on our existing template theme, but not the old frontend layout.
+
+Use the latest colour and typography instructions. Do not restore outdated green-only or old-palette restrictions.
+
+Keep the existing KARM logo and required product identity.
+
+6. CONTINUE IMPLEMENTATION
+
+Continue building the complete frontend within the existing automation, testing, and safety boundaries.
+
+Keep a concise record of:
+• Which reference principle informed a decision.
+• How you transformed it.
+• What makes the resulting implementation original.
+
+THE DIRECTION IS:
+
+Use the supplied references deeply.
+Do not copy them literally.
+Do not recycle the old frontend.
+Create your own unique, coherent, highly creative KARM design from what you learn.

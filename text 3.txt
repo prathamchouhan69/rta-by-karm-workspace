@@ -1,0 +1,205 @@
+REJECTED RESULT — STOP RECOLOURING THE SAME DESIGN
+
+I am rejecting the current frontend.
+
+Day and Classic still look approximately 95% identical to me, and I cannot identify meaningful use of the supplied video references.
+
+Do not respond with another generic assurance.
+Do not describe the work as “completely redesigned” when the visible result remains essentially unchanged.
+
+This is a corrective implementation task.
+
+1. UNDERSTAND THE ACTUAL FAILURE
+
+You have treated three modes as palette variations of the same interface.
+
+That is not what I requested.
+
+I want one coherent product with three deliberately different visual experiences—not the same cards, sidebar, dashboard composition, and animations with different colours.
+
+The product functionality and underlying data should remain consistent. The visual composition, spatial treatment, materials, motion, and presentation must be intentionally designed.
+
+2. VERIFY WHAT YOU ACTUALLY BUILT AND WHAT I AM SEEING
+
+Before making more changes:
+• Confirm which frontend entry point and routes are actually running.
+• Confirm the preview is showing the current build.
+• Check whether the mode selector changes the intended theme and composition.
+• Check whether old components, fallback styles, or cached assets are still being rendered.
+• Identify the exact implementation shared by Day and Classic.
+• Identify which design decisions caused them to remain visually alike.
+
+Do not assume the preview contains your latest work.
+Do not invent a technical explanation without checking it.
+
+3. PROVE THAT YOU CAN ACCESS AND ANALYSE THE VIDEOS
+
+Inspect the actual supplied reference files.
+
+For every video you use, report:
+• Exact filename.
+• Whether you could open and inspect it.
+• Specific timestamps or frame ranges inspected.
+• What happens in that sequence.
+• The motion principle you extracted.
+• The component where you will apply your original interpretation.
+
+Discuss concrete observations:
+• What moves?
+• What triggers it?
+• In which direction?
+• With what timing and easing?
+• How do geometry, lighting, depth, and camera position change?
+• How does the interaction communicate information?
+
+Do not list vague observations such as “smooth animation” or “premium feel.”
+
+Do not claim to have watched a video if you only saw its thumbnail, metadata, or a still image.
+
+If video inspection is unavailable, state that immediately. Do not silently proceed and later claim the references were used.
+
+4. USE THE REFERENCES — TRANSFORM THEM CREATIVELY
+
+The supplied videos and images are required creative inputs.
+
+Use their strongest ideas in:
+• Navigation.
+• Sidebar behaviour.
+• Iconography.
+• Motion graphics.
+• Charts and graphs.
+• Data relationships.
+• Transitions.
+• Interactive 3D scenes.
+• Loading and system states.
+
+Do not copy complete designs or exact sequences.
+
+Develop your own geometry, compositions, materials, and choreography from the principles you observe.
+
+The old frontend is not a creative reference. Do not reuse it as the visual foundation.
+
+5. MAKE DAY, NIGHT, AND CLASSIC VISIBLY DISTINCT
+
+Before implementation, create a concise mode-differentiation matrix covering:
+
+• Overall composition.
+• Dashboard arrangement.
+• Navigation presentation.
+• Component geometry.
+• Surface and material treatment.
+• Lighting and depth.
+• Typography hierarchy.
+• Chart presentation.
+• Motion and transitions.
+• Background environment.
+
+DAY:
+Create an original, immersive daytime design.
+You have full freedom with colours and visual treatment.
+Do not derive it from the Classic template theme.
+
+NIGHT:
+Create its own deliberate atmosphere, lighting, materials, and motion treatment.
+Do not simply darken Day mode.
+
+CLASSIC:
+Use our actual templates as the source of its visual identity.
+It must still be a polished application—not a document pasted onto a screen.
+
+All three modes must preserve clear navigation, familiar labels, equivalent functionality, readable data, and the user's current task.
+
+Distinct does not mean confusing. Do not move essential actions arbitrarily just to create differences.
+
+6. COMPLETE ONE REPRESENTATIVE REDESIGN SLICE FIRST
+
+Do not spread another weak design across the entire application.
+
+First implement the same representative user journey in all three modes, including:
+• Main navigation and sidebar.
+• A dashboard overview.
+• A real-data chart or clearly labelled development-data chart.
+• A table or transaction list.
+• A detail panel.
+• A meaningful interaction and state transition.
+
+This is a quality checkpoint inside the full frontend implementation—not permission to stop at one screen.
+
+Make the three versions visibly different in composition, material, depth, and motion—not merely colour.
+
+Use this slice to establish the new system, then extend it across the full frontend.
+
+7. VERIFY THE DIFFERENCES VISUALLY
+
+If browser and screenshot tools are available:
+• Render the same route, data, viewport, and interaction state in each mode.
+• Capture Day, Night, and Classic.
+• Compare them side by side.
+• Inspect the moving interactions, not only still screenshots.
+• Check console errors and broken states.
+
+Perform a neutral-colour comparison:
+If Day and Classic become effectively the same interface when colour is removed, the redesign has not gone far enough.
+
+This is a qualitative design check, not a fabricated similarity score.
+
+Do not claim “95% different,” “100% original,” or any other measured percentage without an actual defined measurement.
+
+If you cannot capture or inspect the running interface, clearly state what you could and could not verify.
+
+8. MAKE REFERENCE INFLUENCE TRACEABLE
+
+For every major new interaction, record:
+
+REFERENCE OBSERVATION:
+Filename and timestamp, plus the specific behaviour inspected.
+
+ORIGINAL INTERPRETATION:
+How you transformed that behaviour into our own design.
+
+IMPLEMENTATION:
+The actual screen and component where it exists.
+
+VERIFICATION:
+How you confirmed it works in the running application.
+
+A written explanation alone does not count as implementation.
+An unused animation component does not count.
+A hidden demo route does not count as integration into the product.
+
+9. CONTINUE TO THE COMPLETE FRONTEND
+
+Once the representative slice meets these requirements:
+• Apply the new design system across every required screen.
+• Extend the original reference-informed motion language across the complete visualization catalogue already specified.
+• Integrate the KARM conceptual references meaningfully.
+• Complete loading, empty, success, error, offline, and reduced-motion states.
+• Test responsiveness and keyboard interaction.
+• Preserve backend contracts, accounting correctness, and user data.
+
+Keep the existing cost, security, and destructive-action approval boundaries.
+
+Do not ask for routine styling approvals.
+Do not add unrelated features.
+Do not claim to continue working after your execution environment has stopped.
+
+10. REPORT FACTS, NOT MARKETING LANGUAGE
+
+At each meaningful checkpoint, report:
+• What visibly changed.
+• What reference material was actually inspected.
+• What is implemented and reachable.
+• What was tested.
+• What is still incomplete or blocked.
+
+Avoid unsupported words such as “revolutionary,” “fully immersive,” or “completely redesigned.”
+
+START NOW:
+
+Audit the running frontend and reference access.
+Identify why Day and Classic remained alike.
+Implement a genuinely new, reference-informed representative journey in all three modes.
+Verify it visually.
+Then continue the complete frontend redesign.
+
+Do not give me the same design with another coat of paint.
